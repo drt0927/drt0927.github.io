@@ -5,121 +5,136 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="DRT0927의 프로젝트 포트폴리오 - 포켓몬 배틀, 퍼스트디센턴트 정보, 구글 트렌드 게시글">
-    <title>DRT0927 - Projects</title>
+    <title>DRT0927 - Desktop</title>
+    <!-- 98.css CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/98.css">
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2023113892715510"
-        crossorigin="anonymous"></script>
-    <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-5PDVVMQG');</script>
-    <!-- End Google Tag Manager -->
 </head>
 
 <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5PDVVMQG" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <div class="background-gradient"></div>
 
-    <main class="container">
-        <header class="header">
-            <h1 class="title">DRT0927</h1>
-            <p class="subtitle">Welcome to My Digital Playground</p>
-        </header>
+    <!-- Desktop Icons (Optional, can be added later) -->
 
-        <section class="projects">
-            <div class="project-card" id="pokemon-battle">
-                <div class="card-glow"></div>
-                <div class="card-content">
-                    <div class="card-icon">🎮</div>
-                    <h2 class="card-title">Pokémon Battle</h2>
-                    <p class="card-description">
-                        포켓몬스터 OpenAPI를 활용한 간단하고 재미있는 배틀 게임을 즐겨보세요
-                    </p>
-                    <div class="card-tags">
-                        <span class="tag">Game</span>
-                        <span class="tag">API</span>
-                        <span class="tag">Interactive</span>
+    <main class="desktop-container">
+
+        <!-- Welcome Window -->
+        <div class="window" style="margin-bottom: 20px; max-width: 400px;">
+            <div class="title-bar">
+                <div class="title-bar-text">Welcome to DRT0927</div>
+                <div class="title-bar-controls">
+                    <button aria-label="Minimize"></button>
+                    <button aria-label="Maximize"></button>
+                    <button aria-label="Close"></button>
+                </div>
+            </div>
+            <div class="window-body">
+                <p style="text-align: center; margin-bottom: 10px;">Welcome to My Digital Playground</p>
+                <div class="field-row" style="justify-content: center;">
+                    <button onclick="window.location.href='https://github.com/drt0927'">Visit GitHub</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projects Container -->
+        <div class="projects-grid">
+
+            <!-- Project 1: Pokemon Battle -->
+            <div class="window project-window">
+                <div class="title-bar">
+                    <div class="title-bar-text">Pokémon Battle.exe</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Minimize"></button>
+                        <button aria-label="Maximize"></button>
+                        <button aria-label="Close"></button>
                     </div>
-                    <a href="https://drt0927.github.io/pokemon-battle" class="card-button" target="_blank">
-                        <span>게임 시작</span>
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                        </svg>
-                    </a>
+                </div>
+                <div class="window-body">
+                    <div class="project-icon">🎮</div>
+                    <h4>Pokémon Battle</h4>
+                    <p>OpenAPI-based simple battle game.</p>
+                    <div class="status-bar">
+                        <p class="status-bar-field">Game</p>
+                        <p class="status-bar-field">API</p>
+                    </div>
+                    <div style="margin-top: 10px; text-align: center;">
+                        <a href="https://drt0927.github.io/pokemon-battle" target="_blank">
+                            <button>Play Game</button>
+                        </a>
+                    </div>
                 </div>
             </div>
 
-            <div class="project-card" id="firdic">
-                <div class="card-glow"></div>
-                <div class="card-content">
-                    <div class="card-icon">📚</div>
-                    <h2 class="card-title">Firdic</h2>
-                    <p class="card-description">
-                        퍼스트 디센던트 게임 정보와 공략을 한눈에 확인할 수 있는 종합 정보 사이트
-                    </p>
-                    <div class="card-tags">
-                        <span class="tag">Game Info</span>
-                        <span class="tag">Database</span>
-                        <span class="tag">Guide</span>
+            <!-- Project 2: Firdic -->
+            <div class="window project-window">
+                <div class="title-bar">
+                    <div class="title-bar-text">Firdic.exe</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Minimize"></button>
+                        <button aria-label="Maximize"></button>
+                        <button aria-label="Close"></button>
                     </div>
-                    <a href="https://drt0927.github.io/firdic" class="card-button" target="_blank">
-                        <span>정보 보기</span>
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                        </svg>
-                    </a>
+                </div>
+                <div class="window-body">
+                    <div class="project-icon">📚</div>
+                    <h4>Firdic</h4>
+                    <p>The First Descendant info site.</p>
+                    <div class="status-bar">
+                        <p class="status-bar-field">Info</p>
+                        <p class="status-bar-field">DB</p>
+                    </div>
+                    <div style="margin-top: 10px; text-align: center;">
+                        <a href="https://drt0927.github.io/firdic" target="_blank">
+                            <button>View Info</button>
+                        </a>
+                    </div>
                 </div>
             </div>
 
-            <div class="project-card" id="topic">
-                <div class="card-glow"></div>
-                <div class="card-content">
-                    <div class="card-icon">📰</div>
-                    <h2 class="card-title">Topic</h2>
-                    <p class="card-description">
-                        매일 업데이트되는 구글 트렌드 상위 5개 주제에 대한 심층 분석 게시글
-                    </p>
-                    <div class="card-tags">
-                        <span class="tag">Trends</span>
-                        <span class="tag">Blog</span>
-                        <span class="tag">Daily</span>
+            <!-- Project 3: Topic -->
+            <div class="window project-window">
+                <div class="title-bar">
+                    <div class="title-bar-text">Topic.txt</div>
+                    <div class="title-bar-controls">
+                        <button aria-label="Minimize"></button>
+                        <button aria-label="Maximize"></button>
+                        <button aria-label="Close"></button>
                     </div>
-                    <a href="https://drt0927.github.io/topic" class="card-button" target="_blank">
-                        <span>트렌드 읽기</span>
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                        </svg>
-                    </a>
+                </div>
+                <div class="window-body">
+                    <div class="project-icon">📰</div>
+                    <h4>Topic</h4>
+                    <p>Daily Google Trends analysis.</p>
+                    <div class="status-bar">
+                        <p class="status-bar-field">Blog</p>
+                        <p class="status-bar-field">Daily</p>
+                    </div>
+                    <div style="margin-top: 10px; text-align: center;">
+                        <a href="https://drt0927.github.io/topic" target="_blank">
+                            <button>Read Now</button>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </section>
 
-        <footer class="footer">
-            <p>Made with <span class="heart">❤️</span> by DRT0927</p>
-            <a href="https://github.com/drt0927" target="_blank" class="github-link">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                    <path
-                        d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z" />
-                </svg>
-                GitHub
-            </a>
-        </footer>
+        </div>
+
     </main>
+
+    <footer class="taskbar">
+        <button class="start-button">
+            <img src="https://win98icons.alexmeub.com/icons/png/windows-0.png" alt="windows icon">
+            Start
+        </button>
+        <div class="taskbar-divider"></div>
+        <div class="tasks">
+            <button class="task-button active">Welcome</button>
+            <button class="task-button">Projects</button>
+        </div>
+        <div class="taskbar-divider"></div>
+        <div class="tray">
+            <span class="time">12:00 PM</span>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
