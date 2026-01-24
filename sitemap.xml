@@ -2,42 +2,35 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://drt0927.github.io/</loc>
-    <lastmod>2025-11-26T12:48:54+00:00</lastmod>
+    <lastmod>2025-11-26T12:48:54+09:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://drt0927.github.io/pokemon-battle/</loc>
-    <lastmod>2025-08-02T07:11:28+00:00</lastmod>
-    <priority>0.80</priority>
+    <lastmod>2025-08-02T07:11:28+09:00</lastmod>
   </url>
   <url>
     <loc>https://drt0927.github.io/firdic/</loc>
-    <lastmod>2024-12-07T08:28:06+00:00</lastmod>
-    <priority>0.80</priority>
+    <lastmod>2024-12-07T08:28:06+09:00</lastmod>
   </url>
   <url>
     <loc>https://drt0927.github.io/simulate-calc/</loc>
     <lastmod>2026-01-18T10:04:27+09:00</lastmod>
-    <priority>0.80</priority>
   </url>
   <url>
     <loc>https://drt0927.github.io/simulate-calc/housing-subscription/</loc>
     <lastmod>2026-01-18T10:05:54+09:00</lastmod>
-    <priority>0.60</priority>
   </url>
   <url>
     <loc>https://drt0927.github.io/simulate-calc/youth-leap/</loc>
     <lastmod>2026-01-18T10:05:54+09:00</lastmod>
-    <priority>0.60</priority>
   </url>
   <url>
     <loc>https://drt0927.github.io/simulate-calc/unemployment/</loc>
     <lastmod>2026-01-18T10:05:54+09:00</lastmod>
-    <priority>0.60</priority>
   </url>
   <url>
     <loc>https://drt0927.github.io/simulate-calc/childcare/</loc>
-    <lastmod>2024-12-07T08:28:06+00:00</lastmod>
-    <priority>0.60</priority>
+    <lastmod>2024-12-07T08:28:06+09:00</lastmod>
   </url>
 </urlset>
