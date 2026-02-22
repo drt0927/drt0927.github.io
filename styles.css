@@ -25,7 +25,7 @@ body {
     gap: 20px;
     width: 100%;
     max-width: 1000px;
-    height: calc(100vh - 40px);
+    height: calc(100vh - 70px);
     /* Subtract taskbar height approximation */
     overflow-y: auto;
     /* Allow scrolling if content overflows desktop */
@@ -60,6 +60,13 @@ body {
 .project-icon {
     font-size: 3rem;
     margin: 10px 0;
+}
+
+.project-icon-img {
+    width: 48px;
+    height: 48px;
+    margin: 10px 0;
+    image-rendering: pixelated;
 }
 
 .status-bar-field {
